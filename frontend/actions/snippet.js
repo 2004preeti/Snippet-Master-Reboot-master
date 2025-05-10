@@ -3,7 +3,7 @@ import cookie from 'js-cookie';
 import queryString from 'query-string';
 import { isAuth } from './auth';
 
-let baseUrl = 'http://localhost:8000/api/v1';
+let baseUrl = 'https://snippet-master-reboot-master-1.onrender.com';
 
 export const snippetCreate = (snippet, token) => {
   //change url dynamically based on role
