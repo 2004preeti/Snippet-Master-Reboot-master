@@ -2,7 +2,7 @@ import fetch from 'isomorphic-fetch';
 import cookie from 'js-cookie';
 import queryString from 'query-string';
 
-let baseUrl = 'https://snippet-master-reboot-master-1.onrender.com/api/v1';
+let baseUrl = 'https://localhost:8000/api/v1';
 
 export const userPublicProfile = (username) => {
   return fetch(`${baseUrl}/user/${username}`, {
