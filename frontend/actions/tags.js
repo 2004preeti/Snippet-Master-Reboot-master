@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-fetch';
 
-let baseUrl = 'https://snippet-master-reboot-master-1.onrender.com/api/v1';
+let baseUrl = 'https://localhost:8000/api/v1';
 
 export const createTag = (tag, token) => {
   return fetch(`${baseUrl}/tag`, {
